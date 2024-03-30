@@ -1,0 +1,73 @@
+body{
+  width:100%;
+}
+
+h3{
+  text-align:center;
+  color:grey;
+  font-family:Times New Roman;
+}
+input[type="text"] {
+  width: 97%;
+  padding-right: 5px;
+  padding-left:5px;
+  margin: 0 10px;
+  display: block;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+div div div:first-child {
+  font-size: 26px;
+  text-align: left;
+} 
+div div div:first-child:hover {
+  opacity: 1;
+  background-color: #f5f5f5;
+  width:100%;
+}
+
+hr {
+  border-color: grey;
+  width: 100%;
+  margin-top:0px;
+  margin-bottom:0px;
+  opacity: .1;
+}
+
+button {
+  text-decoration: none;
+}
+
+.emojibtn{
+position: relative;
+justify-content: space-between;
+cursor: pointer;
+}
+
+.kopyala {
+display: none; 
+position: absolute;
+right: 0;
+top: 0;
+margin: 5px;
+border: none;
+background: transparent;
+font-size: 14px;
+cursor: pointer;
+color:#b0acacef;
+margin-right:40px;
+text-item:center; 
+
+}
+
+div div div:first-child:hover .kopyala {
+display: block;
+}
+
+
+
+
+
+
+
